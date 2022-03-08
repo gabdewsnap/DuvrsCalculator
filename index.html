@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Durvs Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<section class="frontLetter">
+			<h1>Duvrs Calculator</h1>
+
+			<div class="options">
+				<div class = inputs>
+					<label>Duvrs for the Day</label>
+					<input type="text" id="duvrs">
+
+					<label>Packages for the Day</label>
+					<input type="text" id="packages">
+				</div>
+				
+				<div class="rightSide">
+					<div class="selections">
+						<label>Select Route</label>
+
+						<select>
+							<option value="cityOne">City 1</option>
+							<option value="cityTwo">City 2</option>
+							<option value="cityThree">City 3</option>
+							<option value="cityFour">City 4</option>
+							<option value="cityFive">City 5</option>
+							<option value="citySix">City 6</option>
+							<option value="citySeven">City 7</option>
+							<option value="cityEight">City 8</option>
+							<option value="cityNine">City 9</option>
+							<option value="cityTen">City 10</option>
+							<option value="cityEleven">City 11</option>
+						</select>
+					</div>
+					<button id=calculate>Calculate</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="backLetter" id="image">
+			<div class="timeAverage">
+				<p id="routeAverage"></p>
+			</div>
+			
+		</section>
+
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body, button, select{
+	font-family: 'Handlee', cursive;
+}
+
+body{
+	font-size: 14px;
+	background-color: #b7e3ed;
+}
+.frontLetter{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	background-image: url(assets/letterFront1.png);
+	background-repeat: no-repeat;	
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	min-height: 300px;
+
+	
+}
+
+.rightSide{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.backLetter{
+
+	background-repeat: no-repeat;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	min-height: 300px;
+}
+
+
+
+.options{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 0px 40px 35px 40px;
+	font-size: 1em;
+	width: 100%;
+}
+
+.timeAverage{
+	padding: 70px 100px;
+	text-align: center;
+	line-height: 22px;
+}
+
+input, select, button{
+	border-radius: 5px;
+	border: 1px solid black;
+	height: 25px;
+	margin-bottom: 10px;
+}
+
+h1{
+	padding: 80px 0px 20px 15%;
+	width: 100%;
+	font-size: 2em;
+}
+ 
+input{
+	width: 200px;
+	margin-right: 15px;
+}
+
+.inputs, .selections{
+	display: flex;
+	flex-direction: column;
+}
+@media only screen and (min-width: 650px){
+	.frontLetter, .backLetter{
+		height: 400px;
+		max-width: 800px;
+		min-width: 600px;
+	}
+
+	.backLetter{
+		height: 550px;
+	}
+
+	h1{
+		font-size: 3.5em;
+		padding-bottom: 5%;
+		padding-left: 85px;
+	}
+
+	.options, .timeAverage{
+		font-size: 2em;
+	}
+
+	option, button, select, input{
+		font-size: 1em;
+		height: 40px;
+		width: 250px;
+	}
+
+	.timeAverage{
+		padding: 130px 100px;
+		line-height: 40px;
+	}
+	
+}
+
+@media only screen and (min-width: 850px){
+	.frontLetter, .backLetter{
+		margin: 0% auto;
+	}
+}
