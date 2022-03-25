@@ -12,6 +12,7 @@ body{
 	font-size: 14px;
 	background-color: #b7e3ed;
 }
+
 .frontLetter{
 	display: flex;
 	flex-direction: column;
@@ -23,8 +24,6 @@ body{
 	-webkit-background-size: 100% 100%;
 	background-size: 100% 100%;
 	min-height: 300px;
-
-	
 }
 
 .rightSide{
@@ -41,8 +40,6 @@ body{
 	background-size: 100% 100%;
 	min-height: 300px;
 }
-
-
 
 .options{
 	display: flex;
@@ -81,6 +78,7 @@ input{
 	display: flex;
 	flex-direction: column;
 }
+
 @media only screen and (min-width: 650px){
 	.frontLetter, .backLetter{
 		height: 400px;
@@ -109,7 +107,7 @@ input{
 	}
 
 	.timeAverage{
-		padding: 130px 100px;
+		padding: 90px 100px;
 		line-height: 40px;
 	}
 	
